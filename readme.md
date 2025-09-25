@@ -25,14 +25,16 @@ This project demonstrates a sophisticated real-time AI tutor that explains educa
 
 2. **Set up environment variables**
 Edit `.env` with your API keys:
+```
 GEMINI_API_KEY=your_gemini_key_here
 PERPLEXITY_API_KEY=your_perplexity_key_here
 HUGGINGFACE_API_KEY=your_huggingface_key_here
 USE_PERPLEXITY_FOR_CONTENT=true
 USE_PERPLEXITY_FOR_LAYOUT=true
+```
 
 
-3. **Install Python dependencies**
+4. **Install Python dependencies**
 ```
 pip install -r requirements.txt
 ```
