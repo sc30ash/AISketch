@@ -77,7 +77,7 @@ docker-compose up --build
 - **Containerization**: Docker with production-ready configuration
 
 ### Project Structure
-
+```bash
 ai-tutor-sketchpad/
 ├── agents/ # Multi-agent system
 │ ├── content_agent.py # Topic analysis
@@ -102,7 +102,7 @@ ai-tutor-sketchpad/
 ├── requirements.txt # Python dependencies
 ├── Dockerfile # Container configuration
 └── docker-compose.yml # Multi-service setup
-
+```
 
 ## Assumptions
 
